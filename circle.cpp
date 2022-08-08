@@ -28,3 +28,7 @@ ostream& operator<<(ostream& out, const Circle& c) {
 		<< " Radius is " << c.radius << " Area is " << c.calculatearea();
 	return out;
 }
+
+void foo() {
+	cout << "For git\n";
+}
